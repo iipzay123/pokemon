@@ -3,8 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ApolloProvider } from 'react-apollo';
 import { ApolloClient, InMemoryCache, HttpLink } from 'apollo-client-preset';
-import PokemonList from './src/screens/list-pokemon'
-import PokemonDetail from './src/screens/detail-pokemon'
+import PokemonList from './screens/list-pokemon'
+import PokemonDetail from './screens/detail-pokemon'
 
 
 const client = new ApolloClient({

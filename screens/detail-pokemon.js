@@ -77,7 +77,7 @@ const DetailPoke = ({ route }) => {
     </View>
   } else if (error) {
     return <View>
-      <Text>error</Text>
+      <Text>Error</Text>
     </View>
   }
 
